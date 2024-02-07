@@ -16,7 +16,7 @@ def divisors(num):
          
             myList.append(i)
     return myList
-print(divisors(20))
+print(divisors(30))
 
 
 

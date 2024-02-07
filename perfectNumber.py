@@ -8,12 +8,15 @@
 #The function should return True if the number is perfect and False if it is not
 
 from divisors import divisors
-#define the function header called perfectNumber expecting one argument
 
-    #set a result variable to False by default
-    
-    #if the sum of all the divisors of the number is equal to the test number
 
-        #set the result variable to be True
+def perfectNumber (x):
+    result = False
 
-    #return the result variable
+    sum_of_divisors = sum (divisors(x))
+                        
+    if sum_of_divisors ==x:
+            result = True 
+
+
+    return result
